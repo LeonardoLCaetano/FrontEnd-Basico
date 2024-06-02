@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <div>
+        <label for="modeloCarro">Insira o modelo do carro: </label>
+        <input type="text" placeholder="Ex: Golf" id="modeloCarro">
+    </div>
+    <div>
+        <label for="marcaCarro">Insira a marca do carro: </label>
+        <input type="text" placeholder="Ex: Volkswagen" id="marcaCarro">
+    </div>
+    <div>
+        <label for="anoCarro">Insira o ano do carro: </label>
+        <input type="text" placeholder="Ex: 2021" id="anoCarro">
+    </div>
+    <div>
+        <label for="kmCarro">Insira a quilometragem do carro: </label>
+        <input type="text" placeholder="Ex: 19000km" id="kmCarro">
+    </div>
+    <div>
+        <label for="valorCarro">Insira o valor do carro: </label>
+        <input type="text" placeholder="Ex: 86000" id="valorCarro">
+    </div>
+    <div>
+        <label for="condicaoCarro">Novo</label>
+        <input type="radio" name="condicao" value="Novo" id="condicaoNovo">
+        <label for="condicaoCarro">Usado</label>
+        <input type="radio" name="condicao" value="Usado" id="condicaoUsado">
+    </div>
+    <div>
+        <label for="primeiroCheck">Ar-condicionado</label>
+        <input type="checkbox" name="acessorios" value="Ar-condicionado" id="primeiroCheck">
+        <label for="segundoCheck">Airbag</label>
+        <input type="checkbox" name="acessorios" value="Airbag" id="segundoCheck">
+        <label for="terceiroCheck">Alarme</label>
+        <input type="checkbox" name="acessorios" value="Alarme" id="terceiroCheck">
+        <label for="quartoCheck">ABS</label>
+        <input type="checkbox" name="acessorios" value="ABS" id="quartoCheck">
+    </div>
+    <div>
+        <label for="placasCarro">Selecione a placa do carro: </label>
+        <select name="placas" id="placasCarro">
+            <option value="BRA1A23">BRA1A23</option>
+            <option value="XYZ4B56">XYZ4B56</option>
+            <option value="QWE7C89">QWE7C89</option>
+            <option value="UIO5E34">UIO5E34</option>
+        </select>
+    </div>
+    <input type="submit" name="enviar">
+</body>
+</html>
