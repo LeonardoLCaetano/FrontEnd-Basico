@@ -1,0 +1,60 @@
+.header{
+    background-color: rgb(250, 209, 44);
+    height: 14vh;
+}
+
+.searchBox{
+    text-align: center;
+    height: 7vh;
+}
+
+.searchBar{
+    margin-top: 2vh;
+    width: 20vw;
+}
+
+.navBar{
+    text-align: center;
+    border: solid;
+    height: 7vh;
+    line-height: 6vh;
+}
+
+.navOptions{
+    vertical-align: middle;
+    margin-left: 2vw;
+}
+
+.content{
+    height: 86vh;
+    background-color: rgb(219, 222, 222);
+    text-align: center;
+}
+
+.benefits{
+    background-color: white;
+    width: 80vw;
+    height: 15vh;
+    margin-top: 5vh;
+    display: inline-block;
+    border-radius: 1vw;
+}
+
+.firstOffer{
+    border-right: solid rgb(146, 144, 144) 2px;
+}
+
+.offer, .firstOffer{
+    float: left;
+    height: 15vh;
+    width: 20vw;
+    text-align: left;
+}
+
+.offerTittle, .offerSubtittle{
+    margin-left: 1vw;
+}
+
+.offerTittle{
+    margin-top: 3.5vh;
+}
